@@ -404,7 +404,13 @@ $(function(){
         <br>
       <footer class="footer">
         <div class="container">
-          <p class="text-muted">Last updated: March 2020.</p>
+          <p class="text-muted">
+            Last modified:
+            <script language="JavaScript">
+            var datelast = document.lastModified;
+            document.write(" "+datelast.substr(0,10));
+            </script><br>.
+          </p>
           <hr>
         </div>
       </footer>
@@ -412,7 +418,6 @@ $(function(){
       
       </div>
     </div> <!-- /container -->
-
 
     <!-- Bootstrap core JavaScript
      ================================================== -->
