@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)https://people.clarkson.edu/~murshem/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Md Golam Sarwar Murshed">
+
+<script>
+   function togglev(id) {
+   var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+   }
+</script>
+
+<script type="text/javascript">
+
+$(function(){
+      $('#myurl').val('https://sarwarmurshed.github.io/');
+});
+
+</script>
+
+<script>
+  var image_tracker = 'first';
+  
+  function change(){
+      var image = document.getElementById('smimg');
+      if(image_tracker=='first'){
+      image.src='img/sm.png';
+      image.width='150';
+      image_tracker='second';
+      }
+      else{
+      image.src='img/sm.jpg';
+      image.width='120';     
+      image_tracker='first';
+      }
+  }
+</script>
+
+
+    <title>Md Golam Sarwar Murshed, ECE Department, Clarkson University</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./src/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.css"> -->
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="justified-nav.css" rel="stylesheet"> -->
+
+    <style>
+      .abscls {
+      margin: 20px;
+      border-style:solid;
+      border-color:#0d1974;
+      border-width:2px; 
+      padding-left:4px;
+      padding-right:4px;
+      padding-top:1px;
+      font-weight:300;
+      padding-bottom:1px;
+      background-color: #D5F5E3;
+      }
+
+
+      .bibcls {
+      margin: 10px;
+      border-style:solid;
+      border-color:#0D1974;
+      border-width:2px;
+      padding-left:4px;
+      padding-right:4px;
+      padding-top:1px;
+      padding-bottom:1px;            
+      font-weight:400;
+      background-color: #F4FEDD;
+      width: 80%;
+      height: 80%;
+      overflow: auto;
+      white-space:pre-line;
+      }
+	/* Control <p> */
+      p {
+      font-size: 16px;
+	  line-height: 1.2;
+      }
+	/* Control <li> */
+      li {
+      font-size: 16px;
+	  line-height: 1.2;
+      } 
+	  
+	/* Control <b> */
+	  b {
+      	line-height: 1.2;
+      }
+	/* Control <ul> */
+      ul {
+      font-weight:500;
+      }
+	/* Control break <br> */  
+	br {
+			display: block;
+			margin: 0.5em 0;
+			content: "";
+		}
+
+    /* Make circle picture */
+    .circular--square {
+         border-radius: 100%;
+     }
+      
+      body { padding-top: 100px; font-weight: 600; }
+      .jumbotron { padding: 20px 10px; background-color: #f4f4f4; }
+      .panel-heading { font-size: 20px; }
+      .panel .btn { font-size: 18px; }
+      .navbar-form .btn { font-size: 18px; }
+      .navbar-brand { font-size: 20px; }
+      .form-inline .btn { font-size: 14px; }
+      .nav { font-size: 18px; }
+      .imgdetails {  position: absolute;  bottom: 0;}
+	  
+	  .row {
+			display: flex;
+			flex: 1;
+			border: 1px solid #ccc;
+		}
+
+		.column {
+			flex: 1;
+			padding: 10px;
+			display: flex;
+			flex-direction: column;
+			align-items: left;
+			justify-content: left;
+		}
+
+		.column img {
+			max-width: 100%;
+			max-height: 100%;
+			object-fit: contain;
+		}
+
+		.column p {
+			text-align: left;
+		}
+		
+		.bigger {
+			flex-grow: 2.2;
+		}
+	  
+	</style>
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+ 
+</head>
+ 
+<!-- <img src="img/fh4.jpg" width="70" height="100" alt="Faraz" id="fhimg" onclick="change();"> -->
+
+
+  <body data-spy="scroll" data-target="#main-nav-bar" data-gr-c-s-loaded="true" style="">
+    <nav id="main-nav-bar" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+      </button>
+      <a href="index.html" class="navbar-brand">M. G. Sarwar Murshed</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse">
+      <ul class="nav navbar-nav">
+			<li><a href="education.html">Education</a></li>
+			<li><a href="publications.html">Publications</a></li>
+			<li><a href="experience.html">Experience</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="opensourcesw.html">Open Source SW</a></li>
+		</ul>
+
+      <form class="navbar-form navbar-right">
+        <!-- <a class="btn btn-primary" href="http://www.clarkson.edu/ece/">ECE@Clarkson</a>&nbsp;
+        <a class="btn btn-primary btn-xs" role="button" href="https://people.clarkson.edu/~murshem/courses/ee262/fa19/index.html" target="_blank">EE 262</a>&nbsp;
+        <a class="btn btn-warning btn-xs" role="button" href="https://people.clarkson.edu/~murshem/courses/ee363/fa19/index.html" target="_blank">EE 363</a>&nbsp; -->
+        <a style=" background-color:#01B901;background-color: #01B901;padding: 50px;color: white;padding-top: 5px;padding-bottom: 5px;" class="btn btn-success btn-xs" role="button" href="https://sarwarmurshed.github.io/files/mgsmCV.pdf" target="_blank">CV</a>&nbsp;
+
+        <!-- <a class="btn btn-success" role="button" href="#research">Student opportunities</a> -->
+      </form>
+    </nav>
+      </div>
+    </nav>
+
+	
+    <div class="container">
+	<div class="page-header"><h3>Research Experience</h3></div>
+    <div class="jumbotron">
+    <div class="row">
+	<div class="column">
+		<p><img style="padding: 0 0px; float: left;" src="./img/clarkson_logo.png" width="295/" height="275" /> 
+		</div>
+		<div class="column bigger">
+        <b><span class="C9DxTc " style="color: #cc0000; font-family: Merriweather, Arial; font-weight: 700;">Graduate Research Assistant</span> </b><br>
+		<p> Department of Electrical and Computer Engineering </p>		
+		<p>Clarkson University, NY, USA</p>
+		<p><b>Year:</b> January 2020 - Current</p>
+		<p><b>Responsibilities:</b></p>
+	    <ul style="padding-left: 15px;">
+		<li><b>Robust Contactless Fingerprint Processing Tool</b></li><br>
+		<ul>
+		<li>Developed deep learning-based object segmentation models capable of detecting contactless fingerprints. Developed
+		a new large-scale dataset of contactless slap fingerprints. Evaluated and quantified the performance of the proposed
+		fingerprint segmentation algorithms using Verifinger SDK.</li><br>
+		</ul>
+		<li><b>Road health assessment using deep learning</b></li><br>
+		<ul>
+		<li>Developed deep learning-based image analysis models capable of detecting, classifying, quantifying, and segmenting
+			cracked regions in real-world road images. A two-stage hybrid deep learning architecture is used in this project.
+			The first stage is responsible for detecting and classifying road cracks and the second stage measures the cracks and
+			segments them.</li><br>
+		</ul>
+		<li><b>Detection of Over-Rotated Biometric Images and Incorrect Labeling of Fingerprints</b></li><br>
+		<ul>
+		<li>Developed deep learning-based object segmentation models capable of detecting and segmenting over-rotated objects,
+			such as fingerprints, humans, and cars. Mitigated the negative effects of over-rotation fingerprints on the performance
+			of different commercial fingerprint matcher such as the Verifinger matcher.</li><br>
+		</ul>
+		
+		<li><b>Robust biometrics recognition and template security with multiple modalities</b></li><br>
+		<ul>
+		<li>Improved the performance of fingerprint recognition algorithms and developed evaluation test harness for assessing
+			template security software.</li><br>
+		</ul>
+		
+		<li><b>Fingerprint Segmentation for Juveniles and Adults</b></li><br>
+		<ul>
+		<li>Developed new fingerprint segmentation models capable of effectively processing both adult and juvenile fingerprints
+			using deep learning. Improve the performance of a deep-learning-based fingerprint segmentation system by solving
+			object over-rotation problems</li><br>
+		</ul>
+		
+		<li><b>Fingerprint Template Security</b></li><br>
+		<ul>
+		<li>Developed a test harness for assessing a template security scheme. Evaluated a fingerprint recognition system,
+			developed by a well-known technology company, using a large database of fingerprints and improved up to 20%
+			recognition accuracy.</li><br>
+		</ul>
+		
+		<li><b>Software for Marty Robot</b></li><br>
+		<ul>
+		<li>Developed test harness for testing the Marty OS (ROS-based). Evaluated the current performance of the OS (Robot
+			operating system), improved localization problem, and proposed a deep learning-based grocery hazard recognition
+			system.</li><br>
+		</ul>
+		
+		<li><b>Samsung SHealth and Iotivity project</b></li><br>
+		<ul>
+		<li>Improved a machine learning technique (K-means) to categorize apps for user recommendations. 
+		Designed and developed the Device to Device (D2D) communication, cloud communication, and security test system of the IoTivity
+		framework. Designed, and implemented the build system in an IoTivity test project.</li>
+		</ul>
+		</ul>
+	  </div>
+
+	  </div>
+	  </div>
+	  
+    <div class="jumbotron">
+    <div class="row">
+	<div class="column">
+		<p><img style="padding: 0 0px; float: left;" src="./img/marty.jpg" width="295/" height="275" /> 
+		</div>
+		<div class="column bigger">
+        <b><span class="C9DxTc " style="color: #cc0000; font-family: Merriweather, Arial; font-weight: 700;">Research Intern</span> </b><br>
+		<p> <b>Badger Technologies</b> </p>		
+		<p>350 E Brannon Rd, Nicholasville, KY, USA</p>
+		<p><b>Year:</b> July 2020 - August 2020</p>
+		<p><b>Responsibilities:</b></p>
+	    <ul style="padding-left: 15px;">
+		<li>Deploy deep learning on autonomous robots in the ROS environment.</li><br>
+		<li>Developed an experiment to test the operating system of Marty Robot.</li><br>
+		</ul>
+	  </div>
+
+	  </div>
+	  </div>
+	  
+	  <div class="jumbotron">
+    <div class="row">
+	<div class="column">
+		<p><img style="padding: 0 0px; float: left;" src="./img/semicon.png" width="295/" height="275" /> 
+		</div>
+		<div class="column bigger">
+        <b><span class="C9DxTc " style="color: #cc0000; font-family: Merriweather, Arial; font-weight: 700;">Research Intern</span> </b><br>
+		<p> <b>Semicon PVT. LTD</b> </p>		
+		<p>Dhaka, Bangladesh</p>
+		<p><b>Year:</b> January 2013-February 2013</p>
+		<p><b>Responsibilities:</b></p>
+	    <ul style="padding-left: 15px;">
+		<li>Develop mobile applications for managing IT systems.</li><br>
+		</ul>
+	  </div>
+
+	  </div>
+	  </div>
+	  
+	  
+	  <div class="page-header"><h3>Teaching Experience</h3></div>
+    <div class="jumbotron">
+    <div class="row">
+	<div class="column">
+		<p><img style="padding: 0 0px; float: left;" src="./img/clarkson_logo.png" width="295/" height="275" /> 
+		</div>
+		<div class="column bigger">
+        <b><span class="C9DxTc " style="color: #cc0000; font-family: Merriweather, Arial; font-weight: 700;">Graduate Teaching Assistant</span> </b><br>
+		<p> Department of Electrical and Computer Engineering </p>		
+		<p>Clarkson University, NY, USA</p>
+		<p><b>Year:</b> August 2018 - December 2019</p>
+		<p> Course Names: </p>
+		<p>[Fall-2018 & Fall-2019]:  <b>EE 262: Introduction to Object-Oriented Programming and Software Design</b></p>
+		<p>[Spring 2019]:  <b>EE 260/360: Embedded Systems/Microprocessors</b></p>
+		<p><b>Responsibilities: Lab Instructor and Grader</b> </p>
+		<p>Grading quizzes, programming assignments, homework, and exams, as well as offering additional support to students outside of regular class hours.</p>
+	  </div>
+
+	  </div>
+	  </div>
+	  
+	  <div class="page-header"><h3>Industrial Experience</h3></div>
+    <div class="jumbotron">
+    <div class="row">
+	<div class="column">
+		<p><img style="padding: 0 0px; float: left;" src="./img/samsung.png" width="295/" height="275" /> 
+		</div>
+		<div class="column bigger">
+        <b><span class="C9DxTc " style="color: #cc0000; font-family: Merriweather, Arial; font-weight: 700;">Lead Software Engineer</span> </b><br>
+		<p> <b> Samsung R&D Institute </b></p>		
+		<p>Dhaka, Bangladesh</p>
+		<p><b>Year:</b> September 2013 - July 2018</p>
+		<p><b>Responsibilities:</b></p>
+	    <ul style="padding-left: 15px;">
+		<li>Designed and developed the build systems for the IoTivity framework.</li><br>
+		<li>Developed different APIs for the Iotivity and Samsung SHealth framework.</li><br>
+		<li>Evaluated the performance of Device to Device (D2D) Communication, Cloud Communication, and Security system of the IoTivity project.</li><br>
+		<li>Designed and developed background API for IoT automatic test software, different web application, and robot automation test cases.</li><br>
+		<li>Developed test app (C++, Java) based on IoTivity device communication and security protocol.</li><br>
+		<li>Designed and implemented auto code coverage framework for quality assurance of IoTivity project.</li><br>
+		<li>Designed and implemented memory leak tools for the IoTivity project.</li><br>	
+		</ul>
+	  </div>
+
+	  </div>
+	  </div>
+
+     
+	  
+	
+        <br>
+        <br>
+      <footer class="footer">
+        <div class="container">
+          <p class="text-muted">
+            Last modified:
+            <script language="JavaScript">
+            var datelast = document.lastModified;
+            document.write(" "+datelast.substr(0,10));
+            </script><br>.
+          </p>
+          <hr>
+        </div>
+      </footer>
+      
+      
+      </div>
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+     ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="./src/jquery.js"></script>
+    <script src="./src/bootstrap.min.js"></script>
+  
+
+</body></html>

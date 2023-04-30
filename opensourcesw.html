@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)https://people.clarkson.edu/~murshem/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Md Golam Sarwar Murshed">
+
+<script>
+   function togglev(id) {
+   var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+   }
+</script>
+
+<script type="text/javascript">
+
+$(function(){
+      $('#myurl').val('https://sarwarmurshed.github.io/');
+});
+
+</script>
+
+<script>
+  var image_tracker = 'first';
+  
+  function change(){
+      var image = document.getElementById('smimg');
+      if(image_tracker=='first'){
+      image.src='img/sm.png';
+      image.width='150';
+      image_tracker='second';
+      }
+      else{
+      image.src='img/sm.jpg';
+      image.width='120';     
+      image_tracker='first';
+      }
+  }
+</script>
+
+
+    <title>Md Golam Sarwar Murshed, ECE Department, Clarkson University</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./src/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.css"> -->
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="justified-nav.css" rel="stylesheet"> -->
+
+    <style>
+      .abscls {
+      margin: 20px;
+      border-style:solid;
+      border-color:#0d1974;
+      border-width:2px; 
+      padding-left:4px;
+      padding-right:4px;
+      padding-top:1px;
+      font-weight:300;
+      padding-bottom:1px;
+      background-color: #D5F5E3;
+      }
+
+
+      .bibcls {
+      margin: 10px;
+      border-style:solid;
+      border-color:#0D1974;
+      border-width:2px;
+      padding-left:4px;
+      padding-right:4px;
+      padding-top:1px;
+      padding-bottom:1px;            
+      font-weight:400;
+      background-color: #F4FEDD;
+      width: 80%;
+      height: 80%;
+      overflow: auto;
+      white-space:pre-line;
+      }
+	/* Control <p> */
+      p {
+      font-size: 16px;
+	  line-height: 1.2;
+      }
+	/* Control <li> */
+      li {
+      font-size: 16px;
+	  line-height: 1.2;
+      } 
+	  
+	/* Control <b> */
+	  b {
+      	line-height: 1.2;
+      }
+	/* Control <ul> */
+      ul {
+      font-weight:500;
+      }
+	/* Control break <br> */  
+	br {
+			display: block;
+			margin: 0.5em 0;
+			content: "";
+		}
+
+    /* Make circle picture */
+    .circular--square {
+         border-radius: 100%;
+     }
+      
+      body { padding-top: 100px; font-weight: 600; }
+      .jumbotron { padding: 20px 10px; background-color: #f4f4f4; }
+      .panel-heading { font-size: 20px; }
+      .panel .btn { font-size: 18px; }
+      .navbar-form .btn { font-size: 18px; }
+      .navbar-brand { font-size: 20px; }
+      .form-inline .btn { font-size: 14px; }
+      .nav { font-size: 18px; }
+      .imgdetails {  position: absolute;  bottom: 0;}
+	  
+	  .row {
+			display: flex;
+			flex: 1;
+			border: 1px solid #ccc;
+		}
+
+		.column {
+			flex: 1;
+			padding: 10px;
+			display: flex;
+			flex-direction: column;
+			align-items: left;
+			justify-content: left;
+		}
+
+		.column img {
+			max-width: 100%;
+			max-height: 100%;
+			object-fit: contain;
+		}
+
+		.column p {
+			text-align: left;
+		}
+		
+		.bigger {
+			flex-grow: 2.2;
+		}
+	  
+	</style>
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+ 
+</head>
+ 
+<!-- <img src="img/fh4.jpg" width="70" height="100" alt="Faraz" id="fhimg" onclick="change();"> -->
+
+
+  <body data-spy="scroll" data-target="#main-nav-bar" data-gr-c-s-loaded="true" style="">
+    <nav id="main-nav-bar" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+      </button>
+      <a href="index.html" class="navbar-brand">M. G. Sarwar Murshed</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse">
+      <ul class="nav navbar-nav">
+			<li><a href="education.html">Education</a></li>
+			<li><a href="publications.html">Publications</a></li>
+			<li><a href="experience.html">Experience</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="opensourcesw.html">Open Source SW</a></li>
+		</ul>
+
+      <form class="navbar-form navbar-right">
+        <!-- <a class="btn btn-primary" href="http://www.clarkson.edu/ece/">ECE@Clarkson</a>&nbsp;
+        <a class="btn btn-primary btn-xs" role="button" href="https://people.clarkson.edu/~murshem/courses/ee262/fa19/index.html" target="_blank">EE 262</a>&nbsp;
+        <a class="btn btn-warning btn-xs" role="button" href="https://people.clarkson.edu/~murshem/courses/ee363/fa19/index.html" target="_blank">EE 363</a>&nbsp; -->
+        <a style=" background-color:#01B901;background-color: #01B901;padding: 50px;color: white;padding-top: 5px;padding-bottom: 5px;" class="btn btn-success btn-xs" role="button" href="https://sarwarmurshed.github.io/files/mgsmCV.pdf" target="_blank">CV</a>&nbsp;
+
+        <!-- <a class="btn btn-success" role="button" href="#research">Student opportunities</a> -->
+      </form>
+    </nav>
+      </div>
+    </nav>
+
+	
+    <div class="container">
+	<div class="jumbotron">
+    <div class="row">
+	<div class="column">
+		<p><img src="./img/CITeR-logo.png" />
+		<img style="padding: 0 0px; float: left;" src="./img/Clogo.png"  width="150/" height="175"/>	</p>	
+		</div>
+		<div class="column bigger">
+        <b><span class="C9DxTc " style="color: #cc0000; font-family: Merriweather, Arial; font-weight: 700;">Clarkson Fingerprint Segmentation Model V1</span> </b><br>
+		
+		<p>Official Repository : <a href="https://github.com/keivanB/Clarkson_Finger_Segment" target="_blank">https://github.com/keivanB/Clarkson_Finger_Segment</a></p>
+		<p>You can try our Fingerprint Slap Segmentation Model (V1) in Google Collab !</p>
+		<a href="https://colab.research.google.com/github/keivanB/Clarkson_Finger_Segment/blob/main/Clarkson_Fingerprint_Segmentaition.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg"></a>
+
+		<p>Paper: <a href="https://ieeexplore.ieee.org/abstract/document/9641980/" target="_blank">https://ieeexplore.ieee.org/abstract/document/9641980/</a></p>
+		<p>Pre-print: <a href=" https://arxiv.org/abs/2110.04067" target="_blank"> https://arxiv.org/abs/2110.04067</a></p>
+	  </div>
+
+	  </div>
+	  </div>
+	  
+    <div class="jumbotron">
+    <div class="row">
+	<div class="column">
+		<p><img src="./img/CITeR-logo.png" />
+		<img style="padding: 0 0px; float: left;" src="./img/Clogo.png"  width="150/" height="175"/>	</p>	
+		</div>
+		<div class="column bigger">
+        <b><span class="C9DxTc " style="color: #cc0000; font-family: Merriweather, Arial; font-weight: 700;">Clarkson Rotated Fingerprint Segmentation System V1</span> </b><br>
+		
+		<p>Official Repository : <a href="https://github.com/sarwarmurshed/CRFSEG" target="_blank">https://github.com/sarwarmurshed/CRFSEG</a></p>
+		<p>Pre-print: <a href=" https://arxiv.org/abs/2303.03341" target="_blank"> https://arxiv.org/abs/2303.03341</a></p>
+	  </div>
+
+	  </div>
+	  </div>
+	  
+	  <div class="jumbotron">
+    <div class="row">
+	<div class="column">
+		<img style="padding: 0 0px; float: center;" src="./img/clarkson_logo.png"  width="150/" height="175"/>	</p>	
+		</div>
+		<div class="column bigger">
+        <b><span class="C9DxTc " style="color: #cc0000; font-family: Merriweather, Arial; font-weight: 700;">EasyDLROS, a new framework for easy deployment of pre-trained DL models on robots.</span> </b><br>
+		
+		<p>Official Repository : <a href="https://github.com/sarwarmurshed/supermarket_hazard_detection/tree/master/EasyDLROS" target="_blank">https://github.com/sarwarmurshed/supermarket_hazard_detection/tree/master/EasyDLROS</a></p>
+		<p>Paper: <a href="https://doi.org/10.1007/978-981-16-3357-7_9" target="_blank">https://doi.org/10.1007/978-981-16-3357-7_9</a></p>
+		<p>Pre-print: <a href=" https://www.researchgate.net/publication/356188674_Efficient_Deployment_of_Deep_Learning_Models_on_Autonomous_Robots_in_the_ROS_Environment" target="_blank"> Researchgate</a></p>
+	  </div>
+
+	  </div>
+	  </div>
+	  
+	  <div class="jumbotron">
+    <div class="row">
+	<div class="column">
+		<img style="padding: 0 0px; float: center;" src="./img/clarkson_logo.png"  width="150/" height="175"/>	</p>	
+		</div>
+		<div class="column bigger">
+        <b><span class="C9DxTc " style="color: #cc0000; font-family: Merriweather, Arial; font-weight: 700;">Resource-aware On-device Deep Learning for Supermarket Hazard Detection.</span> </b><br>
+		
+		<p>Official Repository : <a href="https://github.com/sarwarmurshed/supermarket_hazard_detection" target="_blank">https://github.com/sarwarmurshed/supermarket_hazard_detection</a></p>
+		<p>Paper: <a href="https://doi.org/10.1109/ICMLA51294.2020.00142" target="_blank">https://doi.org/10.1109/ICMLA51294.2020.00142</a></p>
+		<p>Pre-print: <a href=" https://www.researchgate.net/profile/M-G-Sarwar-Murshed/publication/349568963_Resource-aware_On-device_Deep_Learning_for_Supermarket_Hazard_Detection/links/63b60f7003aad5368e64ce19/Resource-aware-On-device-Deep-Learning-for-Supermarket-Hazard-Detection.pdf" target="_blank"> Researchgate</a></p>
+	  </div>
+
+	  </div>
+	  </div>
+
+     
+	  
+	
+        <br>
+        <br>
+      <footer class="footer">
+        <div class="container">
+          <p class="text-muted">
+            Last modified:
+            <script language="JavaScript">
+            var datelast = document.lastModified;
+            document.write(" "+datelast.substr(0,10));
+            </script><br>.
+          </p>
+          <hr>
+        </div>
+      </footer>
+      
+      
+      </div>
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+     ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="./src/jquery.js"></script>
+    <script src="./src/bootstrap.min.js"></script>
+  
+
+</body></html>

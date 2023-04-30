@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)https://people.clarkson.edu/~murshem/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Md Golam Sarwar Murshed">
+
+<script>
+   function togglev(id) {
+   var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+   }
+</script>
+
+<script type="text/javascript">
+
+$(function(){
+      $('#myurl').val('https://sarwarmurshed.github.io/');
+});
+
+</script>
+
+<script>
+  var image_tracker = 'first';
+  
+  function change(){
+      var image = document.getElementById('smimg');
+      if(image_tracker=='first'){
+      image.src='img/sm.png';
+      image.width='150';
+      image_tracker='second';
+      }
+      else{
+      image.src='img/sm.jpg';
+      image.width='120';     
+      image_tracker='first';
+      }
+  }
+</script>
+
+
+    <title>Md Golam Sarwar Murshed, ECE Department, Clarkson University</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./src/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.css"> -->
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="justified-nav.css" rel="stylesheet"> -->
+
+    <style>
+      .abscls {
+      margin: 20px;
+      border-style:solid;
+      border-color:#0d1974;
+      border-width:2px; 
+      padding-left:4px;
+      padding-right:4px;
+      padding-top:1px;
+      font-weight:300;
+      padding-bottom:1px;
+      background-color: #D5F5E3;
+      }
+
+
+      .bibcls {
+      margin: 10px;
+      border-style:solid;
+      border-color:#0D1974;
+      border-width:2px;
+      padding-left:4px;
+      padding-right:4px;
+      padding-top:1px;
+      padding-bottom:1px;            
+      font-weight:400;
+      background-color: #F4FEDD;
+      width: 80%;
+      height: 80%;
+      overflow: auto;
+      white-space:pre-line;
+      }
+	/* Control <p> */
+      p {
+      font-size: 16px;
+	  line-height: 1.2;
+      }
+	/* Control <b> */
+	  b {
+      	line-height: 1.2;
+      }
+	/* Control <ul> */
+      ul {
+      font-weight:500;
+      }
+	/* Control break <br> */  
+	br {
+			display: block;
+			margin: 0.5em 0;
+			content: "";
+		}
+
+    /* Make circle picture */
+    .circular--square {
+         border-radius: 100%;
+     }
+      
+      body { padding-top: 100px; font-weight: 600; }
+      .jumbotron { padding: 20px 10px; background-color: #f4f4f4; }
+      .panel-heading { font-size: 20px; }
+      .panel .btn { font-size: 18px; }
+      .navbar-form .btn { font-size: 18px; }
+      .navbar-brand { font-size: 20px; }
+      .form-inline .btn { font-size: 14px; }
+      .nav { font-size: 18px; }
+      .imgdetails {  position: absolute;  bottom: 0;}
+	  
+	  .row {
+			display: flex;
+			flex: 1;
+			border: 1px solid #ccc;
+		}
+
+		.column {
+			flex: 1;
+			padding: 10px;
+			display: flex;
+			flex-direction: column;
+			align-items: left;
+			justify-content: left;
+		}
+
+		.column img {
+			max-width: 100%;
+			max-height: 100%;
+			object-fit: contain;
+		}
+
+		.column p {
+			text-align: left;
+		}
+		
+		.bigger {
+			flex-grow: 2.2;
+		}
+	  
+	</style>
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+ 
+</head>
+ 
+<!-- <img src="img/fh4.jpg" width="70" height="100" alt="Faraz" id="fhimg" onclick="change();"> -->
+
+
+  <body data-spy="scroll" data-target="#main-nav-bar" data-gr-c-s-loaded="true" style="">
+    <nav id="main-nav-bar" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+      </button>
+      <a href="index.html" class="navbar-brand">M. G. Sarwar Murshed</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse">
+      <ul class="nav navbar-nav">
+			<li><a href="education.html">Education</a></li>
+			<li><a href="publications.html">Publications</a></li>
+			<li><a href="experience.html">Experience</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="opensourcesw.html">Open Source SW</a></li>
+		</ul>
+
+      <form class="navbar-form navbar-right">
+        <!-- <a class="btn btn-primary" href="http://www.clarkson.edu/ece/">ECE@Clarkson</a>&nbsp;
+        <a class="btn btn-primary btn-xs" role="button" href="https://people.clarkson.edu/~murshem/courses/ee262/fa19/index.html" target="_blank">EE 262</a>&nbsp;
+        <a class="btn btn-warning btn-xs" role="button" href="https://people.clarkson.edu/~murshem/courses/ee363/fa19/index.html" target="_blank">EE 363</a>&nbsp; -->
+        <a style=" background-color:#01B901;background-color: #01B901;padding: 50px;color: white;padding-top: 5px;padding-bottom: 5px;" class="btn btn-success btn-xs" role="button" href="https://sarwarmurshed.github.io/files/mgsmCV.pdf" target="_blank">CV</a>&nbsp;
+
+        <!-- <a class="btn btn-success" role="button" href="#research">Student opportunities</a> -->
+      </form>
+    </nav>
+      </div>
+    </nav>
+
+	
+    <div class="container">
+	<div class="page-header"><h3>Book Chapters</h3></div>
+    <div class="jumbotron">
+    <div class="row">
+	<div class="column">
+	        <p><img style="padding: 0 0px; float: left;" src="./img/fullsystem_dl_ros.png" width="295/" height="275" /> 
+		</div>
+		<div class="column bigger">
+        <b>Efficient deployment of deep learning models on autonomous robots in the ROS environment</b><br>
+		<p> <b>M. G. Sarwar Murshed</b>, James J. Carroll, Nazar Khan, Faraz Hussain </p>		
+		<p>Springer, Advances in Intelligent Systems and Computing, 2021</p>
+		<p>DOI: <a href="https://doi.org/10.1007/978-981-16-3357-7_9" target="_blank">https://doi.org/10.1007/978-981-16-3357-7_9</a></p>
+		<p>Download: <a href="https://www.researchgate.net/publication/356188674_Efficient_Deployment_of_Deep_Learning_Models_on_Autonomous_Robots_in_the_ROS_Environment" target="_blank">[Researchgate]</a></p>
+   
+	  </div>
+
+	  </div>
+	  </div>
+
+     <div class="jumbotron">
+    <div class="row">
+	<div class="column">
+	
+		<div style="display: flex;">
+		<div style="flex: 1; padding: 10 0px; float: left;">
+		<img src="./img/expl_SDD.png" alt="Example" style="width: 100%; height: 100%;">
+		</div>
+		</div>        
+		</div>
+		
+		<div class="column bigger">
+        <b>Mitigating the Class Overlap Problem in Discriminative Localization: COVID-19 and Pneumonia Case Study</b><br/>
+		<p>Edward Verenich, <b>M. G. Sarwar Murshed</b>, Nazar Khan, Alvaro Velasquez, Faraz Hussain</p>
+		<p>Springer, Explainable AI Within the Digital Transformation and Cyber Physical Systems, 08 May 2021</p>
+		<p>DOI: <a href="https://doi.org/10.1007/978-3-030-76409-8_7" target="_blank">https://doi.org/10.1007/978-3-030-76409-8_7</a>]</p>   
+	  </div>
+
+	  </div>
+	  </div>
+		  
+    <div class="page-header"><h3>Journals and Conferences</h3></div>
+	
+	<div class="jumbotron">
+    <div class="row">
+	<div class="column">
+	
+		<div style="display: flex;">
+		<div style="flex: 1; padding: 10 0px; float: left;">
+		<img src="./img/fasterRCNNArch.png" alt="Example" style="width: 100%; height: 100%;">
+		</div>
+		</div>        
+		</div>
+		<div class="column bigger">
+        <b>Deep Age-Invariant Fingerprint Segmentation System</b><br>
+		<p> <b>M. G. Sarwar Murshed</b>, Keivan Bahmani, Stephanie Schuckers, Faraz Hussain </p>
+		<p>Pre-print: <a href="https://arxiv.org/abs/2303.03341" target="_blank">https://arxiv.org/abs/2303.03341</a></p>
+		<div>
+
+	  </div>
+	  </div>
+     </div>
+	  </div>
+	  
+	  
+	  <div class="jumbotron">
+    <div class="row">
+	<div class="column">
+	
+		<div style="display: flex;">
+		<div style="flex: 1; padding: 0 0px; float: left;">
+		<img src="./img/creck_detection.jpg" alt="Example" style="width: 100%; height: 100%;">
+		</div>
+		</div>        
+		</div>
+		<div class="column bigger">
+        <b>A vision-based system for road crack detection using hybrid deep learning architecture</b><br>
+		<p> <b>M. G. Sarwar Murshed</b>, S. M. Safayet. Hossain, Aksel Seitllari, Kibria K. Roman </p>
+		<p>ASCE International Conference on Transportation & Development, 2023</p>
+		<p>DOI: [Will publish soon]</p>
+		<div>
+
+	  </div>
+	  </div>
+     </div>
+	  </div>
+	  
+	  
+	  <div class="jumbotron">
+    <div class="row">
+	<div class="column">
+	
+		<div style="display: flex;">
+		<div style="flex: 1; padding: 10 0px; float: left;">
+		<img src="./img/Clarkson_Fingerprint.png" alt="Example" style="width: 100%; height: 100%;">
+		</div>
+		</div>        
+		</div>
+		<div class="column bigger">
+        <b>Deep Slap Fingerprint Segmentation for Juveniles and Adults</b><br>
+		<p> <b>M. G. Sarwar Murshed</b>, Robert Kline, Keivan Bahmani, Faraz Hussain, Stephanie Schuckers</p>
+		<p>2021 IEEE International Conference on Consumer Electronics-Asia (ICCE-Asia)</p>
+		<p>DOI: <a href="https://doi.org/10.1109/ICCE-Asia53811.2021.9641980" target="_blank">https://doi.org/10.1109/ICCE-Asia53811.2021.9641980</a></p>
+		<p>Download: <a href="https://arxiv.org/abs/2110.04067" target="_blank">https://arxiv.org/abs/2110.04067</a></p>
+		<div>
+
+	  </div>
+	  </div>
+     </div>
+	  </div>
+	  
+	  
+	  <div class="jumbotron">
+    <div class="row">
+	<div class="column">
+	
+		<div style="display: flex;">
+		<div style="flex: 1; padding: 10 0px; float: left;">
+		<img src="./img/federated_learning.jpg" alt="Example" style="width: 100%; height: 100%;">
+		</div>
+		</div>        
+		</div>
+		<div class="column bigger">
+        <b>Machine Learning at the Network Edge: A Survey</b><br>
+		<p> <b>M. G. Sarwar Murshed</b>, Christopher Murphy, Daqing Hou, Nazar Khan, Ganesh Ananthanarayanan, Faraz Hussain </p>
+		<p>ACM Computing Surveys 54, 8, Article 170 (October 2021)<br/> </p>
+		<p>DOI: [<a href="https://doi.org/10.1145/3469029" target="_blank">https://doi.org/10.1145/3469029</a>] </p>
+		<p>Download: <a href="https://arxiv.org/abs/1908.00080" target="_blank">arXiv</a> </p>
+		<div>
+
+	  </div>
+	  </div>
+     </div>
+	  </div>
+	  
+	  
+	  <div class="jumbotron">
+    <div class="row">
+	<div class="column">
+	
+		<div style="display: flex;">
+		<div style="flex: 1; padding: 10 0px; float: left;">
+		<img src="./img/EdgeLite.png" alt="Example" style="width: 100%; height: 100%;">
+		</div>
+		</div>        
+		</div>
+		<div class="column bigger">
+        <b>Resource-aware On-device Deep Learning for Supermarket Hazard Detection</b><br>
+		<p> <b>M. G. Sarwar Murshed</b>, James J. Carroll, Nazar Khan, Faraz Hussain </p>
+		<p>19th IEEE International Conference on Machine Learning and Applications (ICMLA 2020)</p>
+		<p>DOI: [<a href="https://doi.org/10.1109/ICMLA51294.2020.00142" target="_blank">https://doi.org/10.1109/ICMLA51294.2020.00142</a>]</p>
+		<p>Download: [<a href="https://www.researchgate.net/profile/M-G-Sarwar-Murshed/publication/349568963_Resource-aware_On-device_Deep_Learning_for_Supermarket_Hazard_Detection/links/63b60f7003aad5368e64ce19/Resource-aware-On-device-Deep-Learning-for-Supermarket-Hazard-Detection.pdf" target="_blank">Researchgate</a>]</p>
+		<div>
+
+	  </div>
+	  </div>
+     </div>
+	  </div>
+	  
+	  
+	  <div class="jumbotron">
+    <div class="row">
+	<div class="column">
+	
+		<div style="display: flex;">
+		<div style="flex: 1; padding: 10 0px; float: left;">
+		<img src="./img/dnn_rca.png" alt="Example" style="width: 100%; height: 100%;">
+		</div>
+		</div>        
+		</div>
+		<div class="column bigger">
+		
+        <b>Fast Resilient-Aware Data Layout Organization for Resistive Computing Systems</b><br>
+		<p> Baogang Zhang, <b>M. G. Sarwar Murshed</b>, Faraz Hussain, Rickard Ewetz </p>
+		<p>2020 IEEE Computer Society Annual Symposium on VLSI (ISVLSI)<\p>
+		<p>DOI: [<a href="https://doi.org/10.1109/ISVLSI49217.2020.00023" target="_blank">https://doi.org/10.1109/ISVLSI49217.2020.00023</a>]</p>
+		<p>Download: [<a href="https://www.researchgate.net/publication/343434487_Fast_Resilient-Aware_Data_Layout_Organization_for_Resistive_Computing_Systems" target="_blank">Researchgate</a>]</p>
+		<div>
+
+	  </div>
+	  </div>
+     </div>
+	  </div>
+	  
+	  
+	  <div class="jumbotron">
+    <div class="row">
+	<div class="column">
+	
+		<div style="display: flex;">
+		<div style="flex: 1; padding: 10 0px; float: left;">
+		<img src="./img/FlexServe.png" alt="Example" style="width: 100%; height: 100%;">
+		</div>
+		</div>        
+		</div>
+		<div class="column bigger">
+        <b>FlexServe: Deployment of PyTorch Models as Flexible REST Endpoints</b><br>
+		<p> Edward Verenich, Alvaro Velasquez, <b>M. G. Sarwar Murshed</b>,	Faraz Hussain</p>
+		<p>2020 USENIX Conference on Operational Machine Learning (OpML 2020)</p>
+		<p>Conference Link: [<a href="https://www.usenix.org/conference/opml20/presentation/verenich" target="_blank">https://www.usenix.org/conference/opml20/presentation/verenich</a>]
+		<p>Download: [<a href="https://www.usenix.org/system/files/opml20-paper-verenich.pdf" target="_blank">PDF</a>]
+		<div>
+
+	  </div>
+	  </div>
+     </div>
+	  </div>
+	  
+	  <div class="jumbotron">
+    <div class="row">
+	<div class="column">
+	
+		<div style="display: flex;">
+		<div style="flex: 1; padding: 10 0px; float: left;">
+		<img src="./img/marty.jpg" alt="Example" style="width: 100%; height: 100%;">
+		</div>
+		</div>        
+		</div>
+		<div class="column bigger">
+        <b>Hazard Detection in Supermarkets using Deep Learning on the Edge</b><br>
+		<p> <b>M. G. Sarwar Murshed</b>, Edward Verenich, Conrad Gende, James J. Carroll, Nazar Khan, Faraz Hussain </p>
+		<p>3rd USENIX Workshop on Hot Topics in Edge Computing (HotEdge 2020) [poster]</p>
+		<p>Conference Link: [<a href="https://www.usenix.org/conference/hotedge20/presentation/murshed" target="_blank">https://www.usenix.org/conference/hotedge20/presentation/murshed</a>]</p>
+		<p>Download: [<a href="https://www.usenix.org/system/files/hotedge20_poster_murshed_0.pdf" target="_blank">PDF</a>]</p>	
+		<p>Full Version: [<a href="https://arxiv.org/abs/2003.04116" target="_blank">https://arxiv.org/abs/2003.04116</a>]</p>
+		<div>
+
+	  </div>
+	  </div>
+     </div>
+	  </div>
+	  
+	  <div class="jumbotron">
+    <div class="row">
+	<div class="column">
+	
+		<div style="display: flex;">
+		<div style="flex: 1; padding: 10 0px; float: left;">
+		<img src="./img/tfOverparam.png" alt="Example" style="width: 100%; height: 100%;">
+		</div>
+		</div>        
+		</div>
+		<div class="column bigger">
+        <b>The Utility of Feature Reuse: Transfer Learning in Data-Starved Regimes</b><br>
+		<p> Edward Verenich, Alvaro Velasquez, <b>M.G. Sarwar Murshed</b>, Faraz Hussain </p>
+		<p>Pre-print: <a href="https://arxiv.org/abs/2003.04117" target="_blank">https://arxiv.org/abs/2003.04117</a></p>
+		<div>
+
+	  </div>
+	  </div>
+     </div>
+	  </div>
+	  
+	  
+	
+        <br>
+        <br>
+      <footer class="footer">
+        <div class="container">
+          <p class="text-muted">
+            Last modified:
+            <script language="JavaScript">
+            var datelast = document.lastModified;
+            document.write(" "+datelast.substr(0,10));
+            </script><br>.
+          </p>
+          <hr>
+        </div>
+      </footer>
+      
+      
+      </div>
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+     ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="./src/jquery.js"></script>
+    <script src="./src/bootstrap.min.js"></script>
+  
+
+</body></html>
