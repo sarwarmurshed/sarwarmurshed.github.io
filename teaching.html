@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)https://people.clarkson.edu/~murshem/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Md Golam Sarwar Murshed">
+
+<script>
+   function togglev(id) {
+   var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+   }
+</script>
+
+<script type="text/javascript">
+
+$(function(){
+      $('#myurl').val('https://sarwarmurshed.github.io/');
+});
+
+</script>
+
+<script>
+  var image_tracker = 'first';
+  
+  function change(){
+      var image = document.getElementById('smimg');
+      if(image_tracker=='first'){
+      image.src='img/sm.png';
+      image.width='150';
+      image_tracker='second';
+      }
+      else{
+      image.src='img/sm.jpg';
+      image.width='120';     
+      image_tracker='first';
+      }
+  }
+</script>
+
+
+    <title>Md Golam Sarwar Murshed, ECE Department, Clarkson University</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./src/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.css"> -->
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="justified-nav.css" rel="stylesheet"> -->
+
+    <style>
+      .abscls {
+      margin: 20px;
+      border-style:solid;
+      border-color:#0d1974;
+      border-width:2px; 
+      padding-left:4px;
+      padding-right:4px;
+      padding-top:1px;
+      font-weight:300;
+      padding-bottom:1px;
+      background-color: #D5F5E3;
+      }
+
+
+      .bibcls {
+      margin: 10px;
+      border-style:solid;
+      border-color:#0D1974;
+      border-width:2px;
+      padding-left:4px;
+      padding-right:4px;
+      padding-top:1px;
+      padding-bottom:1px;            
+      font-weight:400;
+      background-color: #F4FEDD;
+      width: 80%;
+      height: 80%;
+      overflow: auto;
+      white-space:pre-line;
+      }
+
+      p {
+      font-weight:500;
+      }
+
+      ul {
+      font-weight:500;
+      }
+
+    /* Make circle picture */
+    .circular--square {
+         border-radius: 100%;
+     }
+      
+      body { padding-top: 100px; font-weight: 600; }
+      .jumbotron { padding: 20px 10px; background-color: #f4f4f4; }
+      .panel-heading { font-size: 20px; }
+      .panel .btn { font-size: 18px; }
+      .navbar-form .btn { font-size: 18px; }
+      .navbar-brand { font-size: 20px; }
+      .form-inline .btn { font-size: 14px; }
+      .nav { font-size: 18px; }
+      .imgdetails {  position: absolute;  bottom: 0;}
+	  
+	  .row {
+			display: flex;
+			flex: 1;
+			border: 1px solid #ccc;
+		}
+
+		.column {
+			flex: 1;
+			padding: 10px;
+			display: flex;
+			flex-direction: column;
+			align-items: left;
+			justify-content: left;
+		}
+
+		.column img {
+			max-width: 100%;
+			max-height: 100%;
+			object-fit: contain;
+		}
+
+		.column p {
+			text-align: left;
+		}
+		
+		.bigger {
+			flex-grow: 2.2;
+		}
+		
+		.courses {
+			color: #206020; 
+			font-size: 20px;
+			margin-bottom: 10px;			
+		}
+		
+		.semesterhighlight {
+			background-color: #206020; /* Dark green background */
+			color: white;               /* White text */
+			padding: 5px;              /* Add some padding for visual comfort */			
+		}
+		
+		summary {
+			cursor: pointer;
+		}
+
+		summary::-webkit-details-marker { 
+			display: none; /* Hide the default triangle marker */
+		}
+	  
+	</style>
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+ 
+</head>
+ 
+<!-- <img src="img/fh4.jpg" width="70" height="100" alt="Faraz" id="fhimg" onclick="change();"> -->
+
+
+  <body data-spy="scroll" data-target="#main-nav-bar" data-gr-c-s-loaded="true" style="">
+    <nav id="main-nav-bar" class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+      </button>
+      <a href="index.html" class="navbar-brand">M. G. Sarwar Murshed</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse">
+      <ul class="nav navbar-nav">
+			<li><a href="education.html">Education</a></li>
+			<li><a href="publications.html">Publications</a></li>
+			<li  class="nav-item active"><a href="teaching.html">Teaching</a></li>
+			<li><a href="experience.html">Experience</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="opensourcesw.html">Open Source SW</a></li>
+		</ul>
+
+      <form class="navbar-form navbar-right">
+        <!-- <a class="btn btn-primary" href="http://www.clarkson.edu/ece/">ECE@Clarkson</a>&nbsp;
+        <a class="btn btn-primary btn-xs" role="button" href="https://people.clarkson.edu/~murshem/courses/ee262/fa19/index.html" target="_blank">EE 262</a>&nbsp;
+        <a class="btn btn-warning btn-xs" role="button" href="https://people.clarkson.edu/~murshem/courses/ee363/fa19/index.html" target="_blank">EE 363</a>&nbsp; 
+        <a style=" background-color:#01B901;background-color: #01B901;padding: 50px;color: white;padding-top: 5px;padding-bottom: 5px;" class="btn btn-success btn-xs" role="button" href="https://sarwarmurshed.github.io/files/mgsmCV.pdf" target="_blank">CV</a>&nbsp;-->
+
+        <!-- <a class="btn btn-success" role="button" href="#research">Student opportunities</a> -->
+      </form>
+    </nav>
+      </div>
+    </nav>	
+    <div class="container">
+	<div class="page-header"><h3>Teaching</h3></div>
+	
+	<div class="courses"> COMP SCI 371: Advanced Object-Oriented Design</div>
+	<p style="margin-bottom: 20px;">
+		<span class="semesterhighlight">Fall 2023</span>
+		<span class="semesterhighlight">Spring 2024</span>
+	</p>
+
+	<details>
+	<summary>Course Description [+]</summary>
+		<p style="font-size: 15px; color: Brown;">
+			This course provides a comprehensive exploration of object-oriented design using the C++ programming language, 
+			focusing on advanced design techniques and implementation strategies. 
+			Key topics include class design, relationships, derivation, abstract classes, interfaces, and static members. 
+			The course delves into object construction and destruction, inheritance, and polymorphism. 
+			Advanced C++ topics such as vectors, dynamic memory management, memory leaks, exception handling, operator overloading, 
+			templates, and the Standard Template Library (STL) are also covered. 
+			Additionally, foundational language elements including functions, control structures, decision-making, references, pointers, 
+			and pointer arithmetic are reviewed to ensure a robust understanding of C++.
+		</p>
+	</details>	
+	<hr>
+	
+	<div class="courses"> COMP SCI 293: Cloud Computing</div>
+	<p style="margin-bottom: 20px;">
+		<span class="semesterhighlight">Spring 2024</span>
+	</p>
+	
+	<details>
+	<summary>Course Description [+]</summary>
+		<p style="font-size: 15px; color:Brown;">
+			This course provides a comprehensive introduction to cloud computing, blending theoretical concepts 
+			with hands-on experience via projects utilizing public cloud platforms such as Amazon Web Services (AWS), 
+			Microsoft Azure, and Google Cloud Platform (GCP). It emphasizes understanding fundamental cloud concepts, models, 
+			and services, including Cloud-Enabling Technologies, virtualization, containerization, and Kubernetes. 
+			Students will explore cloud storage options like Object Storage and gain foundational knowledge of emerging 
+			cloud trends and practices, including Hybrid, Multicloud, Microservices, and Serverless computing. 
+			Additionally, the course extensively covers cloud security and monitoring. Alongside these pivotal topics, 
+			it delves into advanced cloud computing components like elasticity, resource pooling, data centers, availability zones, 
+			containers, and bare-metal servers. Discussions and practical implementation of emerging trends such as DevOps, Cloud Native, 
+			and Application Modernization, as well as machine learning and edge computing, are also included.
+		</p>
+	</details>
+	<hr>
+	
+	<div class="courses"> COMP SCI 240: Discrete Mathematics</div>
+	<p style="margin-bottom: 20px;">
+		<span class="semesterhighlight">Fall 2023</span>
+	</p>
+	
+	<details>
+		<summary>Course Description [+]</summary>
+		<p style="font-size: 15px; color: Brown;">
+			Discrete mathematics forms the mathematical foundation of computer and information science. The goal
+			of this course is to introduce students to ideas and techniques from discrete structures that are widely
+			used in science and engineering. This course aims to familiarize students with fundamental ideas and methodologies 
+			drawn from discrete structures, fostering logical and mathematical thinking skills essential for tackling complex problems. 
+			Through the exploration of topics independent of the limit process, students will delve into areas such as set theory, 
+			proofs, logic, functions, relations, algorithms, number theory, counting principles, matrix manipulation, 
+			mathematical induction, graph theory, trees, recurrence relations, 
+			network models, permutations and combinations, and finite state machines.
+		</p>
+	</details>
+	
+	<div style="font-size: 15px"> 
+		 
+		
+	</div>
+	<hr>
+
+	<div class="courses"> COMP SCI 201: Introduction to Computing & Internet Technologies</div>
+	<p style="margin-bottom: 20px;">
+		<span class="semesterhighlight">Fall 2023</span>
+	</p>
+	
+	<details>
+		<summary>Course Description [+]</summary>
+		<p style="font-size: 15px; color: Brown;">
+			This course provides a comprehensive exploration of computing, starting with its historical development and an overview 
+			of how computers function. It covers a wide range of web development and design topics, from basic to advanced HTML, CSS, 
+			and JavaScript, empowering students to create professional websites. A significant portion of the course is dedicated to 
+			procedural programming, with a focus on JavaScript and its implementation in diverse programming environments.
+		</p>
+	</details>
+	<hr>
+
+        <br>
+        <br>
+      <footer class="footer">
+        <div class="container">
+          <p class="text-muted">
+            Last modified:
+            <script language="JavaScript">
+            var datelast = document.lastModified;
+            document.write(" "+datelast.substr(0,10));
+            </script><br>.
+          </p>
+        </div>
+      </footer>
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+     ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="./src/jquery.js"></script>
+    <script src="./src/bootstrap.min.js"></script>
+  
+
+</body></html>
