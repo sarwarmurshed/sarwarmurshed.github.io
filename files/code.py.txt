@@ -1,0 +1,38 @@
+import numpy as np
+
+def calculate_metrics(confusion_matrix):
+    # Number of classes
+    num_classes = confusion_matrix.shape[0]
+    
+    # Initialize arrays to store precision, recall, and F1 scores for each class
+    precision = np.zeros(num_classes)
+    recall = np.zeros(num_classes)
+    f1_score = np.zeros(num_classes)
+
+    for i in range(num_classes):
+        tp = confusion_matrix[i, i]  # True positives for class i
+        fp = confusion_matrix[:, i].sum() - tp  # False positives for class i
+        fn = confusion_matrix[i, :].sum() - tp  # False negatives for class i
+        
+        precision[i] = tp / (tp + fp) if (tp + fp) > 0 else 0
+        recall[i] = tp / (tp + fn) if (tp + fn) > 0 else 0
+        f1_score[i] = (2 * precision[i] * recall[i]) / (precision[i] + recall[i]) if (precision[i] + recall[i]) > 0 else 0
+    
+    return precision, recall, f1_score
+
+# Example confusion matrix for 5 classes
+# Rows represent the actual classes, columns represent the predicted classes
+confusion_matrix = np.array([
+    [30, 2, 1, 0, 2],  # Class 0
+    [3, 25, 2, 0, 1],  # Class 1
+    [1, 2, 27, 1, 0],  # Class 2
+    [0, 0, 1, 28, 1],  # Class 3
+    [1, 1, 0, 2, 26]   # Class 4
+])
+
+# Calculate metrics
+precision, recall, f1_score = calculate_metrics(confusion_matrix)
+
+# Print results
+for i in range(confusion_matrix.shape[0]):
+    print(f"Class {i}: Precision = {precision[i]:.2f}, Recall = {recall[i]:.2f}, F1-Score = {f1_score[i]:.2f}")
