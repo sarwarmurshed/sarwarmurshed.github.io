@@ -20,8 +20,18 @@ def calculate_metrics(confusion_matrix):
     
     return precision, recall, f1_score
 
+def calculate_total_metrics(confusion_matrix):
+    precision, recall, f1_score = calculate_metrics(confusion_matrix)
+    
+    # Calculate total precision, recall, and F1-score using the weighted approach
+    support = confusion_matrix.sum(axis=1)  # Number of instances per class (support)
+    total_precision = np.average(precision, weights=support)
+    total_recall = np.average(recall, weights=support)
+    total_f1_score = np.average(f1_score, weights=support)
+    
+    return total_precision, total_recall, total_f1_score
+
 # Example confusion matrix for 5 classes
-# Rows represent the actual classes, columns represent the predicted classes
 confusion_matrix = np.array([
     [30, 2, 1, 0, 2],  # Class 0
     [3, 25, 2, 0, 1],  # Class 1
@@ -30,9 +40,10 @@ confusion_matrix = np.array([
     [1, 1, 0, 2, 26]   # Class 4
 ])
 
-# Calculate metrics
-precision, recall, f1_score = calculate_metrics(confusion_matrix)
+# Calculate total metrics
+total_precision, total_recall, total_f1_score = calculate_total_metrics(confusion_matrix)
 
-# Print results
-for i in range(confusion_matrix.shape[0]):
-    print(f"Class {i}: Precision = {precision[i]:.2f}, Recall = {recall[i]:.2f}, F1-Score = {f1_score[i]:.2f}")
+# Print total metrics
+print("Total Precision:", total_precision)
+print("Total Recall:", total_recall)
+print("Total F1-Score:", total_f1_score)
