@@ -213,7 +213,7 @@ img{ max-width:100%; height:auto; }
 .research-focus{
   border:1px solid var(--border);
   border-radius: var(--radius);
-  padding: 18px;
+  padding: 10px;
 }
 
 .profile{
