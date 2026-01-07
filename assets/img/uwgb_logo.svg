@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+<rect width="900" height="300" rx="28" fill="#121a2a" stroke="rgba(233,238,247,.18)" />
+<text x="60" y="120" fill="#e9eef7" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="52" font-weight="800">
+UW–Green Bay
+</text>
+<text x="60" y="175" fill="#b9c3d6" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="26">
+Replace with an official logo image (optional)
+</text>
+<circle cx="820" cy="90" r="46" fill="#ff3b3b" opacity="0.85"/>
+<circle cx="820" cy="180" r="46" fill="#3bd5ff" opacity="0.85"/>
+</svg>
