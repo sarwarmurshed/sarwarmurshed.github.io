@@ -12,21 +12,21 @@
   const NEWS = [
     // ---------------- 2025 ----------------
     {
-      date: "2025-12-01",
+      date: "2025-12-14",
       label: "Dec 2025",
       title: "Paper accepted: Conditional Synthetic Live and Spoof Fingerprint Generation",
       desc: "Accepted in IET Biometrics.",
       links: [{label:"arXiv", url:"https://arxiv.org/abs/2510.17035"}]
     },
     {
-      date: "2025-08-01",
+      date: "2025-07-30",
       label: "Aug 2025",
       title: "Paper accepted: Deep Learning-Based Approaches for Contactless Fingerprints Segmentation and Extraction",
       desc: "Accepted at BIOSIG 2025, Darmstadt, Germany.",
       links: [{label:"arXiv", url:"https://arxiv.org/abs/2311.15163"}]
     },
     {
-      date: "2025-07-01",
+      date: "2025-07-08",
       label: "Jul 2025",
       title: "Paper accepted: Explainable Face Recognition via Improved Localization",
       desc: "Published in Electronics 14(14):2745.",
@@ -35,7 +35,7 @@
 
     // ---------------- 2024 ----------------
     {
-      date: "2024-10-01",
+      date: "2024-10-15",
       label: "Oct 2024",
       title: "Paper accepted: Deep Age-Invariant Fingerprint Segmentation System",
       desc: "Published in IEEE T-BIOM.",
