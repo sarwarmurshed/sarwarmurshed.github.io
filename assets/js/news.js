@@ -16,7 +16,10 @@
       label: "Dec 2025",
       title: "Paper accepted: Conditional Synthetic Live and Spoof Fingerprint Generation",
       desc: "Accepted in IET Biometrics.",
-      links: [{label:"arXiv", url:"https://arxiv.org/abs/2510.17035"}]
+	  links: [
+        {label:"DOI", url:"https://doi.org/10.1049/bme2/7736489"},
+        {label:"arXiv", url:"https://arxiv.org/abs/2510.17035"}
+      ]
     },
     {
       date: "2025-07-30",
