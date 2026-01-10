@@ -9,8 +9,20 @@
 
   const PUBS = [
     // 2025
-    {year: 2025, type:"Journal", title:"Conditional Synthetic Live and Spoof Fingerprint Generation", authors:"Syed Konain Abbas, Sandip Purnapatra, M. G. Sarwar Murshed, Conor Miller-Lynch, Lambert Igene, Soumyabrata Dey, Stephanie Schuckers, Faraz Hussain", venue:"IET Biometrics", links:[{label:"arXiv", url:"https://arxiv.org/abs/2510.17035"}]},
-    {year: 2025, type:"Conference", title:"Deep Learning-Based Approaches for Contactless Fingerprints Segmentation and Extraction", authors:"M. G. Sarwar Murshed, Syed Konain Abbas, Sandip Purnapatra, Daqing Hou, Faraz Hussain", venue:"BIOSIG 2025", links:[{label:"arXiv", url:"https://arxiv.org/abs/2311.15163"}]},
+    {year: 2025, type:"Journal", 
+	title:"Conditional Synthetic Live and Spoof Fingerprint Generation", 
+	authors:"Syed Konain Abbas, Sandip Purnapatra, M. G. Sarwar Murshed, Conor Miller-Lynch, Lambert Igene, Soumyabrata Dey, Stephanie Schuckers, Faraz Hussain", 
+	venue:"IET Biometrics", 
+	links: [
+        {label:"DOI", url:"https://doi.org/10.1049/bme2/7736489"},
+        {label:"arXiv", url:"https://arxiv.org/abs/2510.17035"}
+      ]
+	},
+    {year: 2025, type:"Conference", title:"Deep Learning-Based Approaches for Contactless Fingerprints Segmentation and Extraction", 
+	authors:"M. G. Sarwar Murshed, Syed Konain Abbas, Sandip Purnapatra, Daqing Hou, Faraz Hussain", 
+	venue:"BIOSIG 2025", 
+	links:[{label:"arXiv", url:"https://arxiv.org/abs/2311.15163"}]
+	},
     {year: 2025, type:"Journal", title:"Explainable Face Recognition via Improved Localization", authors:"Rashik Shadman, Daqing Hou, Faraz Hussain, M. G. Sarwar Murshed", venue:"Electronics 14(14):2745", links:[{label:"DOI", url:"https://doi.org/10.3390/electronics14142745"}]},
     // 2024
     {year: 2024, type:"Journal", title:"Deep Age-Invariant Fingerprint Segmentation System", authors:"M. G. Sarwar Murshed, Keivan Bahmani, Stephanie Schuckers, Faraz Hussain", venue:"IEEE Transactions on Biometrics, Behavior, and Identity Science (T-BIOM)", links:[{label:"DOI", url:"https://doi.org/10.1109/TBIOM.2024.3506926"},{label:"arXiv", url:"https://arxiv.org/abs/2303.03341"}]},
