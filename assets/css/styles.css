@@ -72,7 +72,8 @@ img{ max-width:100%; height:auto; }
 .nav-inner{
   display:flex;
   align-items:center;
-  justify-content:space-between;
+  justify-content:flex-start;  /* was: space-between */
+  gap: 100px;                   /* controls distance between name and nav */
   padding: 14px 0;
 }
 .nav-avatar{
