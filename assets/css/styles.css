@@ -73,7 +73,7 @@ img{ max-width:100%; height:auto; }
   display:flex;
   align-items:center;
   justify-content:flex-start;  /* was: space-between */
-  gap: clamp(12px, 2vw, 26px);                  /* controls distance between name and nav */
+  gap: clamp(12px, 5vw, 60px);                  /* controls distance between name and nav */
   padding: 14px 0;
 }
 .nav-avatar{
