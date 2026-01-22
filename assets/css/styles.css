@@ -506,4 +506,5 @@ section{
   .nav-links, .nav-cta{ display:none; }
   .hamburger{ display:grid; }
   .mobile-menu.open{ display:block; }
+  .nav-inner{ gap: 10px; }
 }
