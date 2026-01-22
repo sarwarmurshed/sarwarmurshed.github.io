@@ -73,7 +73,7 @@ img{ max-width:100%; height:auto; }
   display:flex;
   align-items:center;
   justify-content:flex-start;  /* was: space-between */
-  gap: 100px;                   /* controls distance between name and nav */
+  gap: clamp(12px, 2vw, 26px);                  /* controls distance between name and nav */
   padding: 14px 0;
 }
 .nav-avatar{
@@ -147,6 +147,7 @@ img{ max-width:100%; height:auto; }
   border:1px solid var(--border);
   background: rgba(15,23,42,.04);
   place-items:center;
+  margin-left: auto; 
 }
 .hamburger span{
   display:block;
@@ -506,5 +507,4 @@ section{
   .nav-links, .nav-cta{ display:none; }
   .hamburger{ display:grid; }
   .mobile-menu.open{ display:block; }
-  .nav-inner{ gap: 10px; }
 }
