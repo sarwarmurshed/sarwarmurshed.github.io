@@ -21,7 +21,8 @@
     {year: 2025, type:"Conference", title:"Deep Learning-Based Approaches for Contactless Fingerprints Segmentation and Extraction", 
 	authors:"M. G. Sarwar Murshed, Syed Konain Abbas, Sandip Purnapatra, Daqing Hou, Faraz Hussain", 
 	venue:"BIOSIG 2025", 
-	links:[{label:"arXiv", url:"https://arxiv.org/abs/2311.15163"}]
+	links:[{label:"DOI", url:"https://doi.org/10.1109/BIOSIG65492.2025.11358355"},
+		{label:"arXiv", url:"https://arxiv.org/abs/2311.15163"}]
 	},
     {year: 2025, type:"Journal", title:"Explainable Face Recognition via Improved Localization", authors:"Rashik Shadman, Daqing Hou, Faraz Hussain, M. G. Sarwar Murshed", venue:"Electronics 14(14):2745", links:[{label:"DOI", url:"https://doi.org/10.3390/electronics14142745"}]},
     // 2024

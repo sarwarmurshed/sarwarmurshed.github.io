@@ -26,7 +26,10 @@
       label: "Aug 2025",
       title: "Paper accepted: Deep Learning-Based Approaches for Contactless Fingerprints Segmentation and Extraction",
       desc: "Accepted at BIOSIG 2025, Darmstadt, Germany.",
-      links: [{label:"arXiv", url:"https://arxiv.org/abs/2311.15163"}]
+      links: [
+		{label:"DOI", url:"https://doi.org/10.1109/BIOSIG65492.2025.11358355"},
+		{label:"arXiv", url:"https://arxiv.org/abs/2311.15163"}
+	   ]
     },
     {
       date: "2025-07-08",
