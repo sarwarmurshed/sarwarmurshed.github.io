@@ -18,6 +18,13 @@
       desc: "Funding: WiSys Ignite.",
       links: [{label:"Ignite", url:"https://www.wisys.org/grants/ignite-grants/"}]
     },
+    {
+      date: "2026-03-17",
+      label: "March 2026",
+      title: "Accepted Invitation to Serve on the IEEE ICTAI 2026 Program Committee",
+      desc: "M. G. Sarwar has accepted an invitation to serve on the Program Committee of the 38th IEEE International Conference on Tools with Artificial Intelligence (ICTAI) 2026.",
+      links: [{label:"ICTAI", url:"https://ictai.computer.org/2026/program-committee-members/"}]
+    },
     // ---------------- 2025 ----------------
     {
       date: "2025-12-14",
@@ -28,6 +35,12 @@
         {label:"DOI", url:"https://doi.org/10.1049/bme2/7736489"},
         {label:"arXiv", url:"https://arxiv.org/abs/2510.17035"}
       ]
+    },
+    {
+      date: "2025-10-30",
+      label: "Oct 2025",
+      title: "Invited to Attend ICMLA and Serve as a Session Chair",
+	  links: [{label:"ICMLA25", url:"https://icmla-conference.org/icmla25/"}]
     },
     {
       date: "2025-07-30",
