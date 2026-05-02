@@ -10,6 +10,14 @@
   const loadMoreBtn   = document.querySelector('[data-load-more]');
 
   const NEWS = [
+    // ---------------- 2026 ----------------
+    {
+      date: "2026-05-01",
+      label: "May 2026",
+      title: "Grant awarded: PaveFusion: A Multimodal Deep Learning Framework for Pavement Distress Detection (PI)",
+      desc: "Funding: WiSys Ignite.",
+      links: [{label:"Ignite", url:"https://www.wisys.org/grants/ignite-grants/"}]
+    },
     // ---------------- 2025 ----------------
     {
       date: "2025-12-14",
