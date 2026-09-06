@@ -12,6 +12,13 @@
   const NEWS = [
     // ---------------- 2026 ----------------
     {
+      date: "2026-08-13",
+      label: "Aug 2026",
+      title: "Started as Assistant Professor, Department of Electrical Engineering & Computer Science, Texas Southern University",
+      desc: "Joined the College of Science, Engineering and Technology (COSET) at TSU in Houston, Texas, after three years at UW–Green Bay.",
+      links: [{label:"TSU EECS", url:"https://coset.tsu.edu/departments/eecs/"}]
+    },
+    {
       date: "2026-05-01",
       label: "May 2026",
       title: "Grant awarded: PaveFusion: A Multimodal Deep Learning Framework for Pavement Distress Detection (PI)",
