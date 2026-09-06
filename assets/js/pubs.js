@@ -8,6 +8,15 @@
   const searchBox  = document.querySelector('[data-search]');
 
   const PUBS = [
+
+   // 2026
+    {year: 2026, type:"Conference",
+    title:"Pixel-Level Pavement Distress Assessment Using Instance Segmentation",
+    authors:"Logan Dewick, Bibesh Pyakurel, Kong Pheng Yang, Nazim Choudhury, M. G. Sarwar Murshed",
+    venue:"IEEE ICMLA 2026",
+    links:[{label:"arXiv", url:"https://arxiv.org/abs/2605.26095"}]
+    },
+
     // 2025
     {year: 2025, type:"Journal", 
 	title:"Conditional Synthetic Live and Spoof Fingerprint Generation", 
