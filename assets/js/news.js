@@ -18,6 +18,13 @@
       desc: "Joined the College of Science, Engineering and Technology (COSET) at TSU in Houston, Texas, after three years at UW–Green Bay.",
       links: [{label:"TSU EECS", url:"https://coset.tsu.edu/departments/eecs/"}]
     },
+{
+      date: "2026-07-15",
+      label: "July 2026",
+      title: "Paper accepted: Pixel-Level Pavement Distress Assessment Using Instance Segmentation",
+      desc: "Accepted at IEEE ICMLA 2026. Mask R-CNN instance segmentation for roadway crack detection, evaluated on UWGB-StreetCrack, a field-collected dataset annotated with polygon labels.",
+      links: [{label:"arXiv", url:"https://arxiv.org/abs/2605.26095"}]
+    },
     {
       date: "2026-05-01",
       label: "May 2026",
