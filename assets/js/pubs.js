@@ -10,10 +10,17 @@
   const PUBS = [
 
    // 2026
+   {year: 2026, type:"Conference",
+    title:"Conditional Synthetic Live and Spoof Fingerphoto Generation",
+    authors:"Syed Konain Abbas, Conor Miller-Lynch, Mohammad Zahir Uddin Chowdhury, Stephanie Schuckers, Faraz Hussain, and M.G. Sarwar Murshed",
+    venue:"25th International Conference of the Biometrics Special Interest Group (BIOSIG) 2026",
+    //links:[{label:"arXiv", url:"https://arxiv.org/abs/2605.26095"}]
+    },
+    
     {year: 2026, type:"Conference",
     title:"Pixel-Level Pavement Distress Assessment Using Instance Segmentation",
     authors:"Logan Dewick, Bibesh Pyakurel, Kong Pheng Yang, Nazim Choudhury, M. G. Sarwar Murshed",
-    venue:"IEEE ICMLA 2026",
+    venue:"25th IEEE International Conference on Machine Learning and Applications (ICMLA) 2026",
     links:[{label:"arXiv", url:"https://arxiv.org/abs/2605.26095"}]
     },
 
