@@ -12,6 +12,13 @@
   const NEWS = [
     // ---------------- 2026 ----------------
     {
+      date: "2026-09-17",
+      label: "Sep 2026",
+      title: "Paper accepted: Conditional Synthetic Live and Spoof Fingerphoto Generation",
+      desc: "Accepted at 25th International Conference of the Biometrics Special Interest Group (BIOSIG 2026)",
+      //links: [{label:"arXiv", url:"https://arxiv.org/abs/2510.17035"}]
+    },
+    {
       date: "2026-08-13",
       label: "Aug 2026",
       title: "Started as Assistant Professor, Department of Electrical Engineering & Computer Science, Texas Southern University",
